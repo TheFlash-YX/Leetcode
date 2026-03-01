@@ -36,7 +36,7 @@ class Solution:
                 ans_+=rightMax-height[right]
                 right-=1
 
-        return ans
+        return ans_
 
 
 
