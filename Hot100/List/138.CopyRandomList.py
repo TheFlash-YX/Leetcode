@@ -1,6 +1,3 @@
-from 双指针.lt19_删除倒数第n个节点 import ListNode
-
-
 # Definition for a Node.
 class Node:
     def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
