@@ -7,8 +7,6 @@ from traceback import clear_frames
 from typing import Optional, List, no_type_check_decorator
 from collections import defaultdict
 
-from pkg_resources import resource_listdir
-
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
