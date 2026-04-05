@@ -1,3 +1,4 @@
+
 from typing import Optional
 
 class ListNode:
@@ -9,15 +10,18 @@ class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head:
             return None
-
-        pre=None
+        dummy=ListNode(0,head)
         cur=head
+        pre=None
+
         while cur:
             temp=cur.next
             cur.next=pre
-            cur=temp
             pre=cur
+            cur=temp
+
         return pre
+
 
 # 3. 构造链表 1 -> 2 -> 3 -> 4 -> 5
 head = ListNode(1)
