@@ -8,22 +8,29 @@ class DLinkedNode:
 
 class LRUCache:
     def __init__(self, capacity: int):
-        self.cache=dict()
         self.capacity=capacity
         self.head=DLinkedNode()
         self.tail=DLinkedNode()
+        self.head.pre=None
         self.head.next=self.tail
         self.tail.pre=self.head
+        self.tail.next=None
+        self.cache=dict()
+
 
     def _add_node(self,node):
-        node.pre=self.head
         node.next=self.head.next
+        node.pre = self.head
         self.head.next.pre=node
         self.head.next=node
+
 
     def _remove_node(self,node):
         node.pre.next=node.next
         node.next.pre=node.pre
+        node.next=None
+        node.pre=None
+
 
     def _move_to_head(self,node):
         self._remove_node(node)
@@ -36,23 +43,30 @@ class LRUCache:
 
 
     def get(self, key: int) -> int:
-        if key not in self.cache:
+        if key in self.cache:
+            node=self.cache[key]
+            self._move_to_head(node)
+            return node.val
+        else:
             return -1
 
-        node=self.cache[key]
-        self._move_to_head(node)
-        return node.val
 
 
     def put(self, key: int, value: int) -> None:
-        if key in self.cache:
+        if key  in self.cache:
             node=self.cache[key]
             node.val=value
             self._move_to_head(node)
         else:
             node=DLinkedNode(key,value)
             self._add_node(node)
-            self.cache[key]=node
+            self.cache[key] = node
             if len(self.cache)>self.capacity:
                 tail_node=self._pop_tail()
                 del self.cache[tail_node.key]
+
+
+
+
+
+
