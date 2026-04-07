@@ -1,3 +1,4 @@
+from stringprep import in_table_c11
 from typing import Optional
 
 
@@ -9,37 +10,38 @@ class ListNode:
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         dummy=ListNode(0,head)
-        pre=dummy
-
-
-        while True:
-            tail = pre
-            for _ in range(k):
-                tail=tail.next
-                if not tail:
-                    return dummy.next
-
-            nex=tail.next
-
-            tail.next=None
-            head_cur=pre.next
-
-            self.reverseList(head_cur)
-
-            head_cur.next=nex
-            pre.next=tail
-
-            pre=head_cur
-
-
-
-    def reverseList(self,head):
-        pre=None
+        p0=dummy
+        length=0
         cur=head
         while cur:
-            temp=cur.next
-            cur.next=pre
-            pre=cur
-            cur=temp
+            length+=1
+            cur=cur.next
 
-        return pre
+        pre=None
+        cur=head
+        while length>k:
+            length-=k
+
+            for i in range(k):
+                temp=cur.next
+                cur.next=pre
+                pre=cur
+                cur=temp
+            nxt=p0.next
+            p0.next.next=cur
+            p0.next=pre
+            p0=nxt
+
+        return dummy.next
+
+
+head=ListNode(1)
+node1=ListNode(2)
+node2=ListNode(3)
+node3=ListNode(4)
+node4=ListNode(5)
+head.next=node1
+node1.next=node2
+node2.next=node3
+node3.next=node4
+Solution().reverseKGroup(head,2)
