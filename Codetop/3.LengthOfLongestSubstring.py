@@ -16,7 +16,7 @@ class Solution:
         return ans
 
 
-    # 常数级优化，left可以跳跃
+    # 优化，left可以跳跃
     def lengthOfLongestSubstring(self, s: str) -> int:
         # 存放每个字符最后出现的位置
         char_map={}
