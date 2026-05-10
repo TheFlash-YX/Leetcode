@@ -12,3 +12,4 @@ class Solution:
 
         return dp[m][n]
 
+Solution().longestCommonSubsequence("bbbab","babbb")
