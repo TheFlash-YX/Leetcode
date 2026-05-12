@@ -1,12 +1,24 @@
-import sys
-from turtledemo.chaos import line
+import threading
 
-if __name__=="__main__":
-    n=int(sys.stdin.readline().strip())
-    ans=0
-    nums=[]
-    for i in range(n):
-        line=sys.stdin.readline().strip()
-        nums=list(map(int,line.split()))
+count = 0
+lock = threading.Lock()
 
-        print(nums)
+
+def add():
+    global count
+
+    for _ in range(100000):
+        with lock:
+            count += 1
+
+
+t1 = threading.Thread(target=add)
+t2 = threading.Thread(target=add)
+
+t1.start()
+t2.start()
+
+t1.join()
+t2.join()
+
+print(count)
