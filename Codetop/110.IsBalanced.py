@@ -8,15 +8,18 @@ class TreeNode:
         self.right = right
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        # 注意平衡二叉树是每一个子树都要平衡
-        if not root:
-            return True
-        def dfs(node):
-            if not node:
-                return 0
-            leftdeep=dfs(node.left)
-            rightdeep=dfs(node.right)
-            return max(leftdeep,rightdeep)+1
-        if abs(dfs(root.left)-dfs(root.right))>1:
-            return False
-        return self.isBalanced(root.left) and self.isBalanced(root.right)
+        return self.getHeight(root)!=-1
+
+
+    def getHeight(self,node):
+        if not node:
+            return 0
+
+        left=self.getHeight(node.left)
+        if left==-1:
+            return -1
+        right=self.getHeight(node.right)
+        if right==-1 or abs(left-right)>1:
+            return -1
+
+        return max(left,right)+1
