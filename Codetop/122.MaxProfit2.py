@@ -11,7 +11,8 @@ class Solution:
 
         return ans
 
-    # 动态规划
+    # 动态规划 空间复杂度O（N）
+
     def maxProfit(self, prices: list[int]) -> int:
         n=len(prices)
         dp=[[0]*2 for _ in range(n)]
@@ -24,3 +25,19 @@ class Solution:
                 dp[i][1]=max(dp[i-1][1],dp[i-1][0]-prices[i])
 
         return dp[n-1][0]
+
+    # 动态规划 空间复杂度O（1）
+
+    def maxProfit(self, prices: list[int]) -> int:
+        dp0=0
+        dp1=-prices[0]
+
+        for p in prices:
+            temp=dp0
+            dp0=max(dp0,dp1+p)
+            dp1=max(dp1,temp-p)
+
+        return dp0
+
+
+
