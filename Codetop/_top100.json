@@ -1,0 +1,902 @@
+[
+ {
+  "rank": 1,
+  "qid": "3",
+  "title": "无重复字符的最长子串",
+  "slug": "longest-substring-without-repeating-characters",
+  "level": "中等",
+  "freq": 1176,
+  "solved": true
+ },
+ {
+  "rank": 2,
+  "qid": "146",
+  "title": "LRU缓存机制",
+  "slug": "lru-cache",
+  "level": "中等",
+  "freq": 943,
+  "solved": true
+ },
+ {
+  "rank": 3,
+  "qid": "206",
+  "title": "反转链表",
+  "slug": "reverse-linked-list",
+  "level": "简单",
+  "freq": 749,
+  "solved": true
+ },
+ {
+  "rank": 4,
+  "qid": "215",
+  "title": "数组中的第K个最大元素",
+  "slug": "kth-largest-element-in-an-array",
+  "level": "中等",
+  "freq": 601,
+  "solved": true
+ },
+ {
+  "rank": 5,
+  "qid": "25",
+  "title": "K 个一组翻转链表",
+  "slug": "reverse-nodes-in-k-group",
+  "level": "困难",
+  "freq": 526,
+  "solved": true
+ },
+ {
+  "rank": 6,
+  "qid": "15",
+  "title": "三数之和",
+  "slug": "3sum",
+  "level": "中等",
+  "freq": 484,
+  "solved": true
+ },
+ {
+  "rank": 7,
+  "qid": "53",
+  "title": "最大子数组和",
+  "slug": "maximum-subarray",
+  "level": "中等",
+  "freq": 375,
+  "solved": true
+ },
+ {
+  "rank": 8,
+  "qid": "补充题4",
+  "title": "手撕快速排序",
+  "slug": "sort-an-array",
+  "level": "中等",
+  "freq": 356,
+  "solved": false
+ },
+ {
+  "rank": 9,
+  "qid": "5",
+  "title": "最长回文子串",
+  "slug": "longest-palindromic-substring",
+  "level": "中等",
+  "freq": 353,
+  "solved": true
+ },
+ {
+  "rank": 10,
+  "qid": "21",
+  "title": "合并两个有序链表",
+  "slug": "merge-two-sorted-lists",
+  "level": "简单",
+  "freq": 332,
+  "solved": true
+ },
+ {
+  "rank": 11,
+  "qid": "102",
+  "title": "二叉树的层序遍历",
+  "slug": "binary-tree-level-order-traversal",
+  "level": "中等",
+  "freq": 330,
+  "solved": true
+ },
+ {
+  "rank": 12,
+  "qid": "200",
+  "title": "岛屿数量",
+  "slug": "number-of-islands",
+  "level": "中等",
+  "freq": 329,
+  "solved": true
+ },
+ {
+  "rank": 13,
+  "qid": "33",
+  "title": "搜索旋转排序数组",
+  "slug": "search-in-rotated-sorted-array",
+  "level": "中等",
+  "freq": 312,
+  "solved": true
+ },
+ {
+  "rank": 14,
+  "qid": "1",
+  "title": "两数之和",
+  "slug": "two-sum",
+  "level": "简单",
+  "freq": 305,
+  "solved": true
+ },
+ {
+  "rank": 15,
+  "qid": "88",
+  "title": "合并两个有序数组",
+  "slug": "merge-sorted-array",
+  "level": "简单",
+  "freq": 298,
+  "solved": false
+ },
+ {
+  "rank": 16,
+  "qid": "46",
+  "title": "全排列",
+  "slug": "permutations",
+  "level": "中等",
+  "freq": 298,
+  "solved": true
+ },
+ {
+  "rank": 17,
+  "qid": "20",
+  "title": "有效的括号",
+  "slug": "valid-parentheses",
+  "level": "简单",
+  "freq": 297,
+  "solved": true
+ },
+ {
+  "rank": 18,
+  "qid": "121",
+  "title": "买卖股票的最佳时机",
+  "slug": "best-time-to-buy-and-sell-stock",
+  "level": "简单",
+  "freq": 279,
+  "solved": true
+ },
+ {
+  "rank": 19,
+  "qid": "300",
+  "title": "最长上升子序列",
+  "slug": "longest-increasing-subsequence",
+  "level": "中等",
+  "freq": 271,
+  "solved": true
+ },
+ {
+  "rank": 20,
+  "qid": "92",
+  "title": "反转链表 II",
+  "slug": "reverse-linked-list-ii",
+  "level": "中等",
+  "freq": 271,
+  "solved": true
+ },
+ {
+  "rank": 21,
+  "qid": "103",
+  "title": "二叉树的锯齿形层次遍历",
+  "slug": "binary-tree-zigzag-level-order-traversal",
+  "level": "中等",
+  "freq": 269,
+  "solved": true
+ },
+ {
+  "rank": 22,
+  "qid": "236",
+  "title": "二叉树的最近公共祖先",
+  "slug": "lowest-common-ancestor-of-a-binary-tree",
+  "level": "中等",
+  "freq": 267,
+  "solved": true
+ },
+ {
+  "rank": 23,
+  "qid": "54",
+  "title": "螺旋矩阵",
+  "slug": "spiral-matrix",
+  "level": "中等",
+  "freq": 256,
+  "solved": true
+ },
+ {
+  "rank": 24,
+  "qid": "23",
+  "title": "合并K个排序链表",
+  "slug": "merge-k-sorted-lists",
+  "level": "困难",
+  "freq": 256,
+  "solved": true
+ },
+ {
+  "rank": 25,
+  "qid": "141",
+  "title": "环形链表",
+  "slug": "linked-list-cycle",
+  "level": "简单",
+  "freq": 253,
+  "solved": true
+ },
+ {
+  "rank": 26,
+  "qid": "143",
+  "title": "重排链表",
+  "slug": "reorder-list",
+  "level": "中等",
+  "freq": 253,
+  "solved": true
+ },
+ {
+  "rank": 27,
+  "qid": "56",
+  "title": "合并区间",
+  "slug": "merge-intervals",
+  "level": "中等",
+  "freq": 244,
+  "solved": true
+ },
+ {
+  "rank": 28,
+  "qid": "415",
+  "title": "字符串相加",
+  "slug": "add-strings",
+  "level": "简单",
+  "freq": 242,
+  "solved": true
+ },
+ {
+  "rank": 29,
+  "qid": "72",
+  "title": "编辑距离",
+  "slug": "edit-distance",
+  "level": "困难",
+  "freq": 205,
+  "solved": true
+ },
+ {
+  "rank": 30,
+  "qid": "160",
+  "title": "相交链表",
+  "slug": "intersection-of-two-linked-lists",
+  "level": "简单",
+  "freq": 202,
+  "solved": true
+ },
+ {
+  "rank": 31,
+  "qid": "42",
+  "title": "接雨水",
+  "slug": "trapping-rain-water",
+  "level": "困难",
+  "freq": 199,
+  "solved": true
+ },
+ {
+  "rank": 32,
+  "qid": "1143",
+  "title": "最长公共子序列",
+  "slug": "longest-common-subsequence",
+  "level": "中等",
+  "freq": 197,
+  "solved": true
+ },
+ {
+  "rank": 33,
+  "qid": "82",
+  "title": "删除排序链表中的重复元素 II",
+  "slug": "remove-duplicates-from-sorted-list-ii",
+  "level": "中等",
+  "freq": 187,
+  "solved": true
+ },
+ {
+  "rank": 34,
+  "qid": "124",
+  "title": "二叉树中的最大路径和",
+  "slug": "binary-tree-maximum-path-sum",
+  "level": "困难",
+  "freq": 185,
+  "solved": true
+ },
+ {
+  "rank": 35,
+  "qid": "93",
+  "title": "复原IP地址",
+  "slug": "restore-ip-addresses",
+  "level": "中等",
+  "freq": 185,
+  "solved": true
+ },
+ {
+  "rank": 36,
+  "qid": "19",
+  "title": "删除链表的倒数第N个节点",
+  "slug": "remove-nth-node-from-end-of-list",
+  "level": "中等",
+  "freq": 184,
+  "solved": true
+ },
+ {
+  "rank": 37,
+  "qid": "4",
+  "title": "寻找两个正序数组的中位数",
+  "slug": "median-of-two-sorted-arrays",
+  "level": "困难",
+  "freq": 173,
+  "solved": true
+ },
+ {
+  "rank": 38,
+  "qid": "142",
+  "title": "环形链表 II",
+  "slug": "linked-list-cycle-ii",
+  "level": "中等",
+  "freq": 170,
+  "solved": true
+ },
+ {
+  "rank": 39,
+  "qid": "165",
+  "title": "比较版本号",
+  "slug": "compare-version-numbers",
+  "level": "中等",
+  "freq": 165,
+  "solved": true
+ },
+ {
+  "rank": 40,
+  "qid": "199",
+  "title": "二叉树的右视图",
+  "slug": "binary-tree-right-side-view",
+  "level": "中等",
+  "freq": 161,
+  "solved": true
+ },
+ {
+  "rank": 41,
+  "qid": "704",
+  "title": "二分查找",
+  "slug": "binary-search",
+  "level": "简单",
+  "freq": 153,
+  "solved": true
+ },
+ {
+  "rank": 42,
+  "qid": "239",
+  "title": "滑动窗口最大值",
+  "slug": "sliding-window-maximum",
+  "level": "困难",
+  "freq": 153,
+  "solved": true
+ },
+ {
+  "rank": 43,
+  "qid": "22",
+  "title": "括号生成",
+  "slug": "generate-parentheses",
+  "level": "中等",
+  "freq": 151,
+  "solved": true
+ },
+ {
+  "rank": 44,
+  "qid": "32",
+  "title": "最长有效括号",
+  "slug": "longest-valid-parentheses",
+  "level": "困难",
+  "freq": 148,
+  "solved": true
+ },
+ {
+  "rank": 45,
+  "qid": "69",
+  "title": "x 的平方根",
+  "slug": "sqrtx",
+  "level": "简单",
+  "freq": 147,
+  "solved": true
+ },
+ {
+  "rank": 46,
+  "qid": "148",
+  "title": "排序链表",
+  "slug": "sort-list",
+  "level": "中等",
+  "freq": 147,
+  "solved": true
+ },
+ {
+  "rank": 47,
+  "qid": "94",
+  "title": "二叉树的中序遍历",
+  "slug": "binary-tree-inorder-traversal",
+  "level": "简单",
+  "freq": 144,
+  "solved": true
+ },
+ {
+  "rank": 48,
+  "qid": "232",
+  "title": "用栈实现队列",
+  "slug": "implement-queue-using-stacks",
+  "level": "简单",
+  "freq": 143,
+  "solved": true
+ },
+ {
+  "rank": 49,
+  "qid": "31",
+  "title": "下一个排列",
+  "slug": "next-permutation",
+  "level": "中等",
+  "freq": 137,
+  "solved": true
+ },
+ {
+  "rank": 50,
+  "qid": "76",
+  "title": "最小覆盖子串",
+  "slug": "minimum-window-substring",
+  "level": "困难",
+  "freq": 134,
+  "solved": true
+ },
+ {
+  "rank": 51,
+  "qid": "8",
+  "title": "字符串转换整数 (atoi)",
+  "slug": "string-to-integer-atoi",
+  "level": "中等",
+  "freq": 133,
+  "solved": true
+ },
+ {
+  "rank": 52,
+  "qid": "2",
+  "title": "两数相加",
+  "slug": "add-two-numbers",
+  "level": "中等",
+  "freq": 133,
+  "solved": true
+ },
+ {
+  "rank": 53,
+  "qid": "322",
+  "title": "零钱兑换",
+  "slug": "coin-change",
+  "level": "中等",
+  "freq": 132,
+  "solved": true
+ },
+ {
+  "rank": 54,
+  "qid": "43",
+  "title": "字符串相乘",
+  "slug": "multiply-strings",
+  "level": "中等",
+  "freq": 131,
+  "solved": true
+ },
+ {
+  "rank": 55,
+  "qid": "70",
+  "title": "爬楼梯",
+  "slug": "climbing-stairs",
+  "level": "简单",
+  "freq": 130,
+  "solved": true
+ },
+ {
+  "rank": 56,
+  "qid": "105",
+  "title": "从前序与中序遍历序列构造二叉树",
+  "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+  "level": "中等",
+  "freq": 117,
+  "solved": true
+ },
+ {
+  "rank": 57,
+  "qid": "41",
+  "title": "缺失的第一个正数",
+  "slug": "first-missing-positive",
+  "level": "困难",
+  "freq": 114,
+  "solved": true
+ },
+ {
+  "rank": 58,
+  "qid": "78",
+  "title": "子集",
+  "slug": "subsets",
+  "level": "中等",
+  "freq": 107,
+  "solved": true
+ },
+ {
+  "rank": 59,
+  "qid": "151",
+  "title": "翻转字符串里的单词",
+  "slug": "reverse-words-in-a-string",
+  "level": "中等",
+  "freq": 106,
+  "solved": true
+ },
+ {
+  "rank": 60,
+  "qid": "剑指 Offer 22",
+  "title": "链表中倒数第k个节点",
+  "slug": "lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof",
+  "level": "简单",
+  "freq": 103,
+  "solved": false
+ },
+ {
+  "rank": 61,
+  "qid": "34",
+  "title": "在排序数组中查找元素的第一个和最后一个位置",
+  "slug": "find-first-and-last-position-of-element-in-sorted-array",
+  "level": "中等",
+  "freq": 103,
+  "solved": true
+ },
+ {
+  "rank": 62,
+  "qid": "394",
+  "title": "字符串解码",
+  "slug": "decode-string",
+  "level": "中等",
+  "freq": 100,
+  "solved": true
+ },
+ {
+  "rank": 63,
+  "qid": "129",
+  "title": "求根到叶子节点数字之和",
+  "slug": "sum-root-to-leaf-numbers",
+  "level": "中等",
+  "freq": 100,
+  "solved": true
+ },
+ {
+  "rank": 64,
+  "qid": "155",
+  "title": "最小栈",
+  "slug": "min-stack",
+  "level": "简单",
+  "freq": 99,
+  "solved": true
+ },
+ {
+  "rank": 65,
+  "qid": "101",
+  "title": "对称二叉树",
+  "slug": "symmetric-tree",
+  "level": "简单",
+  "freq": 97,
+  "solved": true
+ },
+ {
+  "rank": 66,
+  "qid": "470",
+  "title": "用 Rand7() 实现 Rand10()",
+  "slug": "implement-rand10-using-rand7",
+  "level": "中等",
+  "freq": 96,
+  "solved": false
+ },
+ {
+  "rank": 67,
+  "qid": "39",
+  "title": "组合总和",
+  "slug": "combination-sum",
+  "level": "中等",
+  "freq": 96,
+  "solved": true
+ },
+ {
+  "rank": 68,
+  "qid": "64",
+  "title": "最小路径和",
+  "slug": "minimum-path-sum",
+  "level": "中等",
+  "freq": 95,
+  "solved": true
+ },
+ {
+  "rank": 69,
+  "qid": "695",
+  "title": "岛屿的最大面积",
+  "slug": "max-area-of-island",
+  "level": "中等",
+  "freq": 94,
+  "solved": true
+ },
+ {
+  "rank": 70,
+  "qid": "128",
+  "title": "最长连续序列",
+  "slug": "longest-consecutive-sequence",
+  "level": "中等",
+  "freq": 93,
+  "solved": true
+ },
+ {
+  "rank": 71,
+  "qid": "122",
+  "title": "买卖股票的最佳时机 II",
+  "slug": "best-time-to-buy-and-sell-stock-ii",
+  "level": "简单",
+  "freq": 91,
+  "solved": true
+ },
+ {
+  "rank": 72,
+  "qid": "104",
+  "title": "二叉树的最大深度",
+  "slug": "maximum-depth-of-binary-tree",
+  "level": "简单",
+  "freq": 91,
+  "solved": true
+ },
+ {
+  "rank": 73,
+  "qid": "110",
+  "title": "平衡二叉树",
+  "slug": "balanced-binary-tree",
+  "level": "简单",
+  "freq": 88,
+  "solved": true
+ },
+ {
+  "rank": 74,
+  "qid": "221",
+  "title": "最大正方形",
+  "slug": "maximal-square",
+  "level": "中等",
+  "freq": 88,
+  "solved": true
+ },
+ {
+  "rank": 75,
+  "qid": "234",
+  "title": "回文链表",
+  "slug": "palindrome-linked-list",
+  "level": "简单",
+  "freq": 86,
+  "solved": true
+ },
+ {
+  "rank": 76,
+  "qid": "240",
+  "title": "搜索二维矩阵 II",
+  "slug": "search-a-2d-matrix-ii",
+  "level": "中等",
+  "freq": 85,
+  "solved": true
+ },
+ {
+  "rank": 77,
+  "qid": "152",
+  "title": "乘积最大子数组",
+  "slug": "maximum-product-subarray",
+  "level": "中等",
+  "freq": 85,
+  "solved": false
+ },
+ {
+  "rank": 78,
+  "qid": "179",
+  "title": "最大数",
+  "slug": "largest-number",
+  "level": "中等",
+  "freq": 84,
+  "solved": true
+ },
+ {
+  "rank": 79,
+  "qid": "662",
+  "title": "二叉树最大宽度",
+  "slug": "maximum-width-of-binary-tree",
+  "level": "中等",
+  "freq": 84,
+  "solved": true
+ },
+ {
+  "rank": 80,
+  "qid": "14",
+  "title": "最长公共前缀",
+  "slug": "longest-common-prefix",
+  "level": "简单",
+  "freq": 84,
+  "solved": true
+ },
+ {
+  "rank": 81,
+  "qid": "48",
+  "title": "旋转图像",
+  "slug": "rotate-image",
+  "level": "中等",
+  "freq": 84,
+  "solved": true
+ },
+ {
+  "rank": 82,
+  "qid": "98",
+  "title": "验证二叉搜索树",
+  "slug": "validate-binary-search-tree",
+  "level": "中等",
+  "freq": 84,
+  "solved": true
+ },
+ {
+  "rank": 83,
+  "qid": "144",
+  "title": "二叉树的前序遍历",
+  "slug": "binary-tree-preorder-traversal",
+  "level": "简单",
+  "freq": 84,
+  "solved": true
+ },
+ {
+  "rank": 84,
+  "qid": "543",
+  "title": "二叉树的直径",
+  "slug": "diameter-of-binary-tree",
+  "level": "简单",
+  "freq": 82,
+  "solved": true
+ },
+ {
+  "rank": 85,
+  "qid": "162",
+  "title": "寻找峰值",
+  "slug": "find-peak-element",
+  "level": "中等",
+  "freq": 80,
+  "solved": true
+ },
+ {
+  "rank": 86,
+  "qid": "560",
+  "title": "和为K的子数组",
+  "slug": "subarray-sum-equals-k",
+  "level": "中等",
+  "freq": 79,
+  "solved": true
+ },
+ {
+  "rank": 87,
+  "qid": "113",
+  "title": "路径总和 II",
+  "slug": "path-sum-ii",
+  "level": "中等",
+  "freq": 78,
+  "solved": true
+ },
+ {
+  "rank": 88,
+  "qid": "62",
+  "title": "不同路径",
+  "slug": "unique-paths",
+  "level": "中等",
+  "freq": 78,
+  "solved": true
+ },
+ {
+  "rank": 89,
+  "qid": "198",
+  "title": "打家劫舍",
+  "slug": "house-robber",
+  "level": "中等",
+  "freq": 75,
+  "solved": false
+ },
+ {
+  "rank": 90,
+  "qid": "209",
+  "title": "长度最小的子数组",
+  "slug": "minimum-size-subarray-sum",
+  "level": "中等",
+  "freq": 74,
+  "solved": true
+ },
+ {
+  "rank": 91,
+  "qid": "24",
+  "title": "两两交换链表中的节点",
+  "slug": "swap-nodes-in-pairs",
+  "level": "中等",
+  "freq": 73,
+  "solved": true
+ },
+ {
+  "rank": 92,
+  "qid": "112",
+  "title": "路径总和",
+  "slug": "path-sum",
+  "level": "简单",
+  "freq": 72,
+  "solved": true
+ },
+ {
+  "rank": 93,
+  "qid": "83",
+  "title": "删除排序链表中的重复元素",
+  "slug": "remove-duplicates-from-sorted-list",
+  "level": "简单",
+  "freq": 69,
+  "solved": true
+ },
+ {
+  "rank": 94,
+  "qid": "139",
+  "title": "单词拆分",
+  "slug": "word-break",
+  "level": "中等",
+  "freq": 69,
+  "solved": true
+ },
+ {
+  "rank": 95,
+  "qid": "227",
+  "title": "基本计算器 II",
+  "slug": "basic-calculator-ii",
+  "level": "中等",
+  "freq": 69,
+  "solved": false
+ },
+ {
+  "rank": 96,
+  "qid": "718",
+  "title": "最长重复子数组",
+  "slug": "maximum-length-of-repeated-subarray",
+  "level": "中等",
+  "freq": 68,
+  "solved": false
+ },
+ {
+  "rank": 97,
+  "qid": "226",
+  "title": "翻转二叉树",
+  "slug": "invert-binary-tree",
+  "level": "简单",
+  "freq": 68,
+  "solved": false
+ },
+ {
+  "rank": 98,
+  "qid": "169",
+  "title": "多数元素",
+  "slug": "majority-element",
+  "level": "简单",
+  "freq": 68,
+  "solved": false
+ },
+ {
+  "rank": 99,
+  "qid": "207",
+  "title": "课程表",
+  "slug": "course-schedule",
+  "level": "中等",
+  "freq": 67,
+  "solved": false
+ },
+ {
+  "rank": 100,
+  "qid": "283",
+  "title": "移动零",
+  "slug": "move-zeroes",
+  "level": "简单",
+  "freq": 67,
+  "solved": false
+ }
+]
