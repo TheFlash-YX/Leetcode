@@ -1,4 +1,3 @@
-from stringprep import in_table_c11
 from typing import Optional
 
 
@@ -10,28 +9,27 @@ class ListNode:
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         dummy=ListNode(0,head)
-        p0=dummy
-        length=0
+        n=0
         cur=head
         while cur:
-            length+=1
+            n+=1
             cur=cur.next
 
-        pre=None
         cur=head
-        while length>k:
-            length-=k
+        pre=None
+        p0=dummy
 
+        while n>=k:
+            n-=k
             for i in range(k):
-                temp=cur.next
+                nxt=cur.next
                 cur.next=pre
                 pre=cur
-                cur=temp
+                cur=nxt
             nxt=p0.next
             p0.next.next=cur
             p0.next=pre
             p0=nxt
-
         return dummy.next
 
 

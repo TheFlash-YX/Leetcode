@@ -18,4 +18,14 @@ class Solution:
 
         return pre
 
+    def reverseList(self,head:Optional[ListNode])->Optional[ListNode]:
+        if not head or not head.next:
+            return head
+
+        rev_head=self.reverseList(head.next)
+        tail=head.next
+        tail.next=head
+        head.next=None
+
+        return rev_head
 

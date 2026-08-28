@@ -1,0 +1,23 @@
+class Solution:
+    def canFinish(self,numCourses:int,prerequisites:list[list[int]])->bool:
+        g=[[] for _ in range(numCourses)]
+        for a,b in prerequisites:
+            g[b].append(a)
+        colors=[0]*numCourses
+
+        def dfs(x:int)->bool:
+            colors[x]=1
+            for y in g[x]:
+                if y==1 or y==0 and dfs(y):
+                    return True
+            colors[x]=2
+            return False
+
+        for i,c in enumerate(colors):
+            if c==0 and dfs(i):
+                return False
+
+        return True
+
+
+
